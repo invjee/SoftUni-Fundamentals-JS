@@ -1,1 +1,2 @@
-# SoftUni-Sotware-Ingeneering
+# SoftUni-Software-Ingineering
+# https://softuni.bg/
