@@ -1,0 +1,23 @@
+package BasicSyntaxConditionalStatementsAndLoops;
+
+import java.util.Scanner;
+
+public class BackIn30Min {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int hours = Integer.parseInt(scanner.nextLine());
+        int minutes = Integer.parseInt(scanner.nextLine());
+        int after30min = minutes+30;
+        if(after30min>=60){
+            hours += 1;
+            minutes = after30min-60;
+            if(hours >=24){
+                hours = 0;
+            }
+
+        }else{
+            minutes = after30min;
+        }
+        System.out.printf("%d:%02d", hours, minutes);
+    }
+}
