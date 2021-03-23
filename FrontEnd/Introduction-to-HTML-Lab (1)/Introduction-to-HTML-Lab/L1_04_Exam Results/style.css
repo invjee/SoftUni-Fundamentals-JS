@@ -1,0 +1,27 @@
+body{
+    background: #F0F1F5;
+    
+    margin: 0;
+    padding: 2rem, 12rem;
+    font-family: "Helvetica", sans-serif;
+    
+}
+header>p{
+    float: left;
+    color: orange;
+
+}
+nav{
+    text-align: right;
+}
+nav ul li {
+display: inline-block;
+}
+nav ul li a{
+color: orange;
+}
+nav ul{
+    float: right;
+}
+
+
